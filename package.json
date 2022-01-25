@@ -1,15 +1,26 @@
 {
   "name": "larapeak-ui",
   "version": "0.0.0",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/larapeak-ui.umd.js",
+  "module": "./dist/larapeak-ui.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/larapeak-ui.umd.js",
+      "require": "./dist/larapeak-ui.es.js"
+    }
+  },
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "build:library": "vue-tsc --noEmit && vite build"
   },
   "dependencies": {
     "vue": "^3.2.25"
   },
   "devDependencies": {
+    "@types/node": "^17.0.12",
     "@vitejs/plugin-vue": "^2.0.0",
     "typescript": "^4.4.4",
     "vite": "^2.7.2",

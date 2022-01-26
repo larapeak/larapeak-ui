@@ -1,5 +1,5 @@
 <template>
-    <div>
-      Badge component
-    </div>
+  <div>
+    Badge component
+  </div>
 </template>

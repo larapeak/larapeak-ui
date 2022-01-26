@@ -29,7 +29,7 @@ export default defineUserConfig<DefaultThemeOptions>({
       {
         text: 'Components',
         children: [
-          { text: 'Badge', link: '/components/badge/badge' },
+          { text: 'Badge', link: 'badge' },
         ],
       }
     ],

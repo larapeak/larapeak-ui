@@ -1,6 +1,6 @@
 import { defineClientAppEnhance } from '@vuepress/client'
-import BadgeExample from '../components/badge/BadgeExample.vue'
+import LarapeakBadge from '../../src/components/badge/Badge.vue'
 
 export default defineClientAppEnhance(({ app, router, siteData }) => {
-  app.component('BadgeExample', BadgeExample)
+  app.component('LarapeakBadge', LarapeakBadge)
 })

@@ -22,6 +22,9 @@ export default defineUserConfig<DefaultThemeOptions>({
     sidebar: [
       {
         text: 'Guide',
+        children: [
+          'install'
+        ],
       },
       {
         text: 'Components',
